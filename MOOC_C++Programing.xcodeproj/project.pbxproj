@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		337355AB1E4B551B0046578D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 337355AA1E4B551B0046578D /* main.cpp */; };
+		337355B31E4CB2230046578D /* Third.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 337355B11E4CB2230046578D /* Third.cpp */; };
+		337355B71E4CB23F0046578D /* Second.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 337355B51E4CB23F0046578D /* Second.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		337355A71E4B551B0046578D /* MOOC_C++Programing */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "MOOC_C++Programing"; sourceTree = BUILT_PRODUCTS_DIR; };
 		337355AA1E4B551B0046578D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		337355B11E4CB2230046578D /* Third.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Third.cpp; sourceTree = "<group>"; };
+		337355B21E4CB2230046578D /* Third.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Third.hpp; sourceTree = "<group>"; };
+		337355B51E4CB23F0046578D /* Second.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Second.cpp; sourceTree = "<group>"; };
+		337355B61E4CB23F0046578D /* Second.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Second.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +64,28 @@
 			isa = PBXGroup;
 			children = (
 				337355AA1E4B551B0046578D /* main.cpp */,
+				337355B81E4CB24D0046578D /* Second */,
+				337355B41E4CB22D0046578D /* Third */,
 			);
 			path = "MOOC_C++Programing";
+			sourceTree = "<group>";
+		};
+		337355B41E4CB22D0046578D /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				337355B11E4CB2230046578D /* Third.cpp */,
+				337355B21E4CB2230046578D /* Third.hpp */,
+			);
+			name = Third;
+			sourceTree = "<group>";
+		};
+		337355B81E4CB24D0046578D /* Second */ = {
+			isa = PBXGroup;
+			children = (
+				337355B51E4CB23F0046578D /* Second.cpp */,
+				337355B61E4CB23F0046578D /* Second.hpp */,
+			);
+			name = Second;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +146,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				337355AB1E4B551B0046578D /* main.cpp in Sources */,
+				337355B71E4CB23F0046578D /* Second.cpp in Sources */,
+				337355B31E4CB2230046578D /* Third.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

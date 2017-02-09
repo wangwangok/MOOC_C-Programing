@@ -8,8 +8,17 @@
 
 #include <iostream>
 
+#include "Second.hpp"
+#include "Third.hpp"
+
+#define WEEK 3
+
 int main(int argc, const char * argv[]) {
     // insert code here...
-    std::cout << "Hello, World!\n";
+#if WEEK == 2
+    _main_second();
+#elif WEEK == 3
+    _main_third();
+#endif
     return 0;
 }
